@@ -7,8 +7,13 @@ class Home extends Component {
   return (
 
       <div className="home">
-        <h1>React Navbar</h1>
+         
+        <h1>Adding Color</h1>
+            
+     <h3>to the dull moments.</h3> 
+        
       hvmbjn
+      
       </div>
       
   );

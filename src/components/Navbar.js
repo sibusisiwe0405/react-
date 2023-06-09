@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
+import "./HomeStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
