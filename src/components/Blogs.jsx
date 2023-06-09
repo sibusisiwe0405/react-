@@ -12,7 +12,7 @@ class Blogs extends Component {
       <div className="card left">
   <div className="img-cont">
     <span className="window"><h2>Week 3</h2></span>
-    <img className="img" src="../Images/Blog1.jpg" alt="" />
+    <img className="img" src="./public/Images/Blog1.jpg" alt="" />
   </div>
   <div className="content-cont">
     <span className="card-header"><a href="blog1.html">Thoughts on Net-Art</a></span>
