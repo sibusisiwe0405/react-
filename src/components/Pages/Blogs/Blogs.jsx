@@ -45,11 +45,11 @@ class Blogs extends Component {
 
 <div className="card right">
   <div className="img-cont">
-    <span className="window"><h2>Artwork reflection</h2></span>
+    <span className="window"><h2>1st Artwork reflection</h2></span>
     <img className="img" src="../Images/Blog3.0.jpg" alt="" />
   </div>
   <div className="content-cont">
-    <span className="card-header"><a href="blog3.html">Artwork Reflection</a></span>
+    <span className="card-header"><a href="blog4.jsx">Artwork Reflection</a></span>
     <span className="card-body">The initial idea was to have my whole website function as internet art on its own.</span>
   </div>
 </div>
