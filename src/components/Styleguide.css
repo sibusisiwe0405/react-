@@ -1,0 +1,36 @@
+.Heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+}
+.stylePic {
+    
+    height: 50%;
+    width: 50%;
+padding: 50px;
+
+  }
+  .column {
+    position: relative;
+    display: flex;
+    
+  }
+  .row{
+    display: flex;
+  }
+  .headings{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+  }
+  .Wheading{
+text-align: center;
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .WPic{
+    align-items: center;
+margin-left: 25%;
+  }

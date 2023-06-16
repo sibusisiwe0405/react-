@@ -21,7 +21,7 @@ class blog1 extends Component {
         I personally think traditional art forms are still profound and can never truly be replaced; however, I find this net art form interesting because of how diverse an art piece can become. I enjoyed engaging with <a href="https://anthology.rhizome.org/my-boyfriend-came-back-from-the-war" className="blinks">‘My boyfriend came back from the war’</a> art piece.
         I like how the user gets to interact with the piece to hear about the story and how we get to sort of be in control to some extent of how the conversation goes.
       </p>
-      <img src="/Images/Screenshot 2023-04-22 at 01.06.18.png" className="Bimages" alt="Web image" />
+      <img src="./Images/Screenshot 2023-04-22 at 01.06.18.png" className="Bimages" alt="Web image" />
       <p>
         It has been an interesting week with a lot of content to take in. I have not fully figured out how I want to do my website, but the resources provided to us are very helpful in getting ideas and seeing what I would like to make.
         I am also still unsure of how these dev blogs are meant to be structured; however, I am looking forward to the feedback and writing more critical pieces.
