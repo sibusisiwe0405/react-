@@ -31,6 +31,16 @@ class Blogs extends Component {
     <span className="card-body">I liked this UI designer's minimal and liquid animated website.</span>
   </div>
 </div>
+<div className="card left">
+  <div className="img-cont">
+    <span className="window"><h2>AI as Art</h2></span>
+    <img className="img" src="./Images/Blog1.jpg" alt="" />
+  </div>
+  <div className="content-cont">
+    <span className="card-header"><a href="/blog5.jsx">Can AI make art without artists?</a></span>
+    <span className="card-body">An analysis and thoughts on the new world of AI</span>
+  </div>
+</div>
 
 <div className="card right">
   <div className="img-cont">
@@ -53,6 +63,7 @@ class Blogs extends Component {
     <span className="card-body">The initial idea was to have my whole website function as internet art on its own.</span>
   </div>
 </div>
+
 
     </div>
     

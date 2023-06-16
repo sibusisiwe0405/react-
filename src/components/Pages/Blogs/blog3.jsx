@@ -11,29 +11,28 @@ class blog3 extends Component {
 
         </p>
         <p>
-            For my UI/UX I wanted to create a instinctive, coherent and user-friendly website where the user was provided with accurate information to perform actions and navigating the website. 
-The idea I had for this website was making an ‘online coloring book’. I wanted the website to function an internet art on its own however currently this is not the case and I want to work on it going further until I get to my desired outcome. 
-I wanted to have a fun and funky website with no specific color scheme as that would be up to the user or whatever color is generated as the user interacts with the website. 
-The website was to start off very minimal with black and white aesthetics which would change colors as the user interacts with it and at the end of it all the website would be colorful showing a trace of where the user was and what they interacted with. This would give a feel of getting a plain coloring book and adding color on each page as you go to make it look pretty. 
-I wanted to make use of mouse and hover interactions that would reveal color behind a black and white image and after that interaction the image would change to that original color. 
-For the blog texts I wants to have a gradient color effect when the user hovers over the text leaving a trace of color. 
+        For my UI/UX I wanted to create an instinctive, coherent and user-friendly website where the user was provided with accurate information to perform actions and navigating the website. 
+The idea I had for this website just like my previous one was making an ‘online coloring book’. 
+The website is supposed to function as internet art on its own. To do this wanted to have it look as colorful and artistic as possible, from the fonts to the colors and interactions used. 
+I wanted to have a fun and funky website with where the user is able to switch to their desired theme and font so it is more satisfying to them as they have the agency to pick how they want to view the website. 
+The website was to start off very minimal with black and white aesthetics with a color palette to that allows you to change your theme and at the end of it all the website would be a colorful website of the users choosing. 
+This would give a feel of getting a plain coloring book and adding color on each page as you go to make it look pretty. For the blog texts I wants to have a gradient color effect when the user hovers over the text leaving a trace of color. 
+
         </p>
         <p>
-            The overall website is user-friendly and has familiar website features that are easy to use and understand such as the standard navigation bar and the footer. This is done to create a feeling of familiarity in the user. The home page is very minimal with a black font and white background. 
-            I wanted to have an image as the background that would be blurry and have a circle hover effect that would reveal and change the color of the image to its original color however the code I attempted did not give me these results. The font of the title would also change from a simple and formal font to a fun and funky one on interaction. 
-            Currently the page is minimal with a simple color change when you hover over the title and the image. 
+        The overall website is user-friendly and has familiar website features that are easy to use and understand such as the standard navigation bar and the footer. 
+        This is done to create a feeling of familiarity in the user. The home page is very minimal with the starting color theme background and fun font. I want to have fun animation elements that float around in the home page to make it more engaging and appealing. 
+        Currently the page is minimal with a fun font and color gradient with a toggle function which the user interacts with to change the color/theme of the website. 
         </p>
 
         <p>
-            For the blog page the aesthetic remains minimal and simple with cards with a color glow effect when you hover over them. Each blog post has a previous and next button for easy access to other posts instead of the user going back and clicking the blogs section on the navigation. 
-            The buttons are different colors because I wanted to have the website look colorful instead of sticking to a set color scheme. I wanted to have a gradient color effect for the text when the user schemes over the writing and hovers over it would have changed to different colors. 
-            For my internet artwork I have a blank white canvas with drawing tools where the user can make their own art and this page does not have a footer. 
-            I did this because I wanted to give the effect that it’s a piece of blank paper where the user can draw and color just like the painting app. The style guide had my planning process with brainstorming and concept ideas. 
-            The planning process for my internet art can be found in <a href="./blog4.html" class="blinks">blog 4 </a> where I reflect on the process leading to my current outcome.
+        For the blog page the aesthetic remains minimal and simple with styled cards with a color glow effect when you hover over them. 
+        Each blog post has a previous and next button for easy access to other posts instead of the user going back and clicking the blogs section on the navigation. 
+        The buttons correspond with the chosen color theme because I wanted to have the website have colors that complement each other instead of having colors that don’t look good together/match. 
+        I wanted to have a gradient color effect for the text when the user schemes over the writing and hovers over it would have changed to different colors. 
         </p>
         <p>
-            Some of the webpages are currently not responsive and this is a result of poor time management however because I still want to develop this website and make changes, I will be adding all responsive form factors. 
-            Overall I am not too happy with my design as my vision did not come to pass but there is still improvements that will be implemented to give the website a feel of it being a coloring book of some sort. 
+        The website is still in progress and hope by the time the exam is due I have implemented all these features and have made it just as I had visualized it. 
         </p>
 </div>
 
