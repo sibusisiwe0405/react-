@@ -31,6 +31,7 @@ class Blogs extends Component {
     <span className="card-body">I liked this UI designer's minimal and liquid animated website.</span>
   </div>
 </div>
+
 <div className="card left">
   <div className="img-cont">
     <span className="window"><h2>AI as Art</h2></span>
@@ -42,14 +43,14 @@ class Blogs extends Component {
   </div>
 </div>
 
-<div className="card right">
+<div className="feature-card card">
   <div className="img-cont">
     <span className="window"><h2>Reflection</h2></span>
     <img className="img" src="../Images/Blog3.0.jpg" alt="" />
   </div>
   <div className="content-cont">
     <span className="card-header"><a href="blog3.jsx">UI/UX Critical Reflection</a></span>
-    <span className="card-body">The user interface and user experience are important parts of designing a website.</span>
+    <span className="card-body">The UI and UX are important parts of designing a website.</span>
   </div>
 </div>
 

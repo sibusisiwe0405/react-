@@ -155,7 +155,7 @@ text-decoration: none;
 .left {
   margin-top: 20px;
   display: inline-block;
-transform: perspective(1400px) rotateY(-15deg) rotateX(8deg); 
+transform: perspective(1400px) rotateY(-10deg) rotateX(8deg); 
 }
 .right {
   margin-top: 20px;
