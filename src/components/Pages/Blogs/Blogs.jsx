@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import "./blogstyles.css";
+import { Link } from 'react-router-dom';
+
+
 
 
 
@@ -16,7 +19,7 @@ class Blogs extends Component {
     <img className="img" src="./public/Images/Blog1.jpg" alt="" />
   </div>
   <div className="content-cont">
-    <span className="card-header"><a href="/blog1.jsx">Thoughts on Net-Art</a></span>
+    <span className="card-header"><Link to="/Blogs/blog1">Thoughts on Net-Art</Link></span>
     <span className="card-body">We live in a time where things are forever changing.</span>
   </div>
 </div>
@@ -24,7 +27,7 @@ class Blogs extends Component {
 <div className="feature-card card">
   <div className="img-cont">
     <span className="window"><h2>Week 4</h2></span>
-    <img className="img" src="../Images/Blog2.jpg" alt="" />
+    <img className="img" src="./Images/Blog2.jpg" alt="" />
   </div>
   <div className="content-cont">
     <span className="card-header"><a href="blog2.jsx">Brainstorming</a></span>

@@ -1,17 +1,18 @@
-import React, { Component } from 'react'
-import "./blogstyles.css";
+import React from 'react'
+import "./blog1.css"
 
-class blog1 extends Component {
-  render(){
 
- 
+
+export default function blog1(){
+  
   return (
-    
+
     <div className="writing">
-      <p>
+
+      <span>
         Having sat down after some time of not being at school and watched the recorded lecture I realised I have such a short attention span, however, that isn’t the point.
         I was able to listen and take in quite a bit of information by watching in intervals.
-      </p>
+      </span>
       <p>
         The recording engaged with topics such as art about the internet, art using the internet, and the one that made me think and got my creative juices going was; what is art.
         As an artist or rather a digital artist for over 4 years, I have come to realize that as simple as the question "What is art" sounds, it is harder to answer than many realize.
@@ -29,6 +30,6 @@ class blog1 extends Component {
     </div>
   );
 };
-}
 
-export default blog1;
+
+

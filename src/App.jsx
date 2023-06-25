@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home.jsx";
 import Blogs from "./components/Pages/Blogs/Blogs.jsx";
 
-
 import Netart from "./components/Netart.jsx";
 import Footer from "./components/Footer.jsx";
 import Styleguide from "./components/Styleguide.jsx";
@@ -13,11 +12,11 @@ import { Link } from "react-router-dom";
 import ColorItem from './color-item';
 import { useState } from "react";
 
-
 import "./styles.css";
 
 
 const App =() => {
+
 
   const colors = ['#2d3436' , '#4834d4' , '#be2edd' , '#f9ca24' , '#6ab04c' , '#30336b'];
 
@@ -69,14 +68,14 @@ console.log(currentColor)
       
         <Route  path='/' element={<Home/>}/>
         <Route  path='/Blogs' element={<Blogs/>} />
+        <Route path="/Blogs/blog1" element={<blog1/>}/>
         <Route  path="/Netart" element = {<Netart/>}/>
         <Route  path="/Styleguide" element = {<Styleguide/>}/>
+        
         </Routes>
-      
-        
-        
-        
+     
         <Footer/>
+        
         
     </div>
     

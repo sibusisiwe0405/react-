@@ -1,13 +1,17 @@
-import React from 'react'
+
 import "./HomeStyles.css";
+import React, { Component } from 'react'
 
-const Netart = () => {
-  return (
-    <div>
-        <h1>Internet Artwork</h1>
-        <h3>Placeholder</h3>
-    </div>
-  )
-}
 
+
+class Netart extends Component {
+  render(){
+  
+return (
+  <div>
+    <h1>Artwork</h1>
+  </div>
+  
+  );
+  }}
 export default Netart

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Styleguide.css';
+
 const Styleguide = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Styleguide = () => {
                 A critical reflection can be found in the blog section.
             </p>
             <div className="column">
-  <img src="./Images/moodboard.png" className="stylePic" alt="Initial Hpage" style={{ width: '50%' }} />
+  <img src=".Images/moodboard.png" className="stylePic" alt="Initial Hpage" style={{ width: '50%' }} />
   <img src="./Images/concept.png" className="stylePic" alt="Concept idea" style={{ width: '50%' }} />
 </div>
 <p className='headings'>Below I have added my new mood board and concept idea which shows a visualization of my brainstorming, inspirations and new ideas. </p>
@@ -26,6 +27,7 @@ const Styleguide = () => {
 <img src="./Images/new moodboard.png" className="stylePic" alt="New Hpage" style={{ width: '50%' }} />
   <img src="./Images/newconcept.png" className="stylePic" alt="NewConcept idea" style={{ width: '50%' }} />
 </div>
+
 <div>
   <p className="Wheading">WireFrames</p>
   <p className="headings">First image - Home page.</p>
