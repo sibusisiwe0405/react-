@@ -81,11 +81,29 @@ a.inner:hover {
 }
 
 .Heading{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 100px;
+  font-family: 'Tilt Prism', cursive;
+  font-size: 50px;
   text-align: center;
   margin-bottom: 10px;
   color: black;
+
+}
+.Heading2{
+  font-family: 'Tilt Prism', cursive;
+  font-size: 70px;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: linear-gradient(45deg, #09009f, #32d390 80%);
+
+}
+.Heading3{
+  font-family: 'Tilt Prism', cursive;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: linear-gradient(45deg, #09009f, #32d390 80%);
 
 }
 .writing{
@@ -103,24 +121,36 @@ height: 80%;
 width: 100%;
 border-style: double;
 }
-.next{
+.next2{
 background-color: #593bf4;
 color: white;
 text-decoration: none;
+text-align: center;
 font-size: 20px;
-padding: 20px;
+padding: 10px;
 float: right;
 margin-right: 20px;
-margin-top: 15px;
+margin-top: 10px;
 border-radius: 20px;
 
 }
+.next3{
+  background-color: #eec01a;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+  }
 .Prev{
 background-color: #eec01a;
 color: white;
 text-decoration: none;
 font-size: 20px;
-padding: 20px;
+padding: 10px;
 float: left;
 margin-left: 20px;
 margin-top: 15px;

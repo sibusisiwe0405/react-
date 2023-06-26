@@ -1,12 +1,24 @@
 import "./HomeStyles.css";
-import React, { Component } from 'react'
-import { useSpring, animated } from 'react-spring';
+
+import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 
 
-class Home extends Component {
+const Home = () =>{
+
+  const [backgroundColor, setBackgroundColor] = useState('');
+
+  const handleColorChange = (color) => {
+    setBackgroundColor(color);
+  };
+
+  const handleColorPickerClick = () => {
+    const color = prompt('Choose a color:');
+    if (color) {
+      handleColorChange(color);
+    }
+  };
   
-  render() {
   return (
 
       <div className="home">
@@ -14,12 +26,13 @@ class Home extends Component {
         <h1>Adding Color</h1>
             
      <h3>to the dull moments.</h3> 
-        
+
+    
       
       </div>
       
   );
 }
-}
+
 
 export default Home;

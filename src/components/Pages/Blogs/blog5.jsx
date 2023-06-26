@@ -1,33 +1,61 @@
-import React, { Component } from 'react'
-import "./blogstyles.css";
+import React from 'react'
+import "./blogstyles.css"
+import { Link } from "react-router-dom";
 
-class blog5 extends Component {
-  render(){
+export default function blog5() {
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
  
   return (
 <div className="writing">
-      <p>
-      Despite the legal requirement to attribute individual writers, Foucault cautions us that these reconstructions are false and highly dependent on the text itself and our own views. 
-      According to Foucault and other post-structuralist thinkers who followed him, an artist is not simply a person who existed in a specific time and place, but rather a concept that viewers an artwork to help them understand it (Buchanan, 2001, p. 17).
-      </p>
-      <p>
-      In contrast, artist Leonel Moura represents a newer entrant in the realm of machine-human boundaries.
-       Moura's career benefits from the expanding acceptance over the past three decades of a contextual definition of art, initially proposed by Marcel Duchamp, which focuses on the history, evolution, and innovative contributions of art itself.</p>
-      <p>
-      Moreover, there have been interesting developments in the realm of AI-generated personalized soundtracks. Pierre Barreau, for example, discusses the potential for AI to compose personalized music tailored to individual listeners. 
-      This opens up new possibilities for AI in creative endeavors where human creativity may not be able. 
-      However, as AI software and hardware become more advanced, the works created by AI may take away from the original author's software, raising questions about authorship and the role of AI in the creative process (Barreau, 2018).</p>
-      
-      <p>
-      The question of authorship in computational art extends beyond legal considerations. It goes into the subjective interpretation of artworks and the construction of artistic personas. 
-      Viewers often attribute traces of "personality" in the artwork to the meta-artist rather than the machine itself. 
-      This suggests that the viewer's perception and preconceived notions play a significant role in shaping the understanding and appreciation of computational art.</p>
-    
+<div>
+      <button onClick={scrollToTop} id="myBtn" title="Go to top">Top</button>
+      <span className="Prev"><Link to="/blog4">Prev</Link></span>
+      <span className="next2"><Link to="/blog6">Next</Link></span>
+      <p className="Heading3">
+        Artwork</p>
+        
     </div>
+    <br/>
+  <p>
+  
+    I have sat and thought long and hard about my internet artwork idea after realizing my initial idea still needs a lot of work and I did not have much time to get around doing it. 
+    This current artwork is still small scale, and there are still developments to be made as I work on the website for the upcoming assignments.
+  </p>
+  <p>
+    The initial idea was to have my whole website function as internet art on its own. I wanted to create a website coloring book essentially.
+    I wanted to have the user interact with the website and leave traces of color as they go along. There would have been small doodle drawings around the website which could be colored in using a color palette with a color picker. 
+    After I realized that I will be needing more time and assistance with this idea, I thought I needed to come up with a different idea which still aligns with the whole coloring book idea. 
+    I then thought I could have a section dedicated to the user making their own art by drawing and coloring their drawing and saving it as a PNG file. I created a page with drawing tools and colors which can be saved as a picture onto your laptop. 
+    This idea is still small scale and is still to be developed.
+  </p>
+  <p>
+    Most of my research and planning is based around my first idea of making the website my web art, so I created a moodboard and concept board that explains the idea I had. 
+    I still plan on doing this idea, hopefully it can be implemented successfully with React in the coming assignments because I still like that idea very much and I think it could be cool to do. 
+    For the small-scale experimental internet artwork that I have currently, I initially wanted to have a set drawing in the background of the canvas that the user can color in with the color of their choosing, etc.
+  </p>
+  <a href="../Images/moodboard.png" className="stylePic">
+    <img src="../Images/moodboard.png" className="stylePic" alt="mood board" style={{ width: '50%' }} />Click Moodboard
+  </a>
+  <a href="../Images/concept.png" className="stylePic">
+    <img src="../Images/concept.png" className="stylePic" alt="concept board" style={{ width: '50%' }} />Click concept board
+  </a>
+  <p>
+    Here is an example of what the canvas could have looked like with a black and white set image that the user adds color to: 
+  </p>
+  <a href="../Images/canvas.png" className="stylePic">
+    <img src="../Images/canvas.png" className="stylePic" alt="example" style={{ width: '50%' }} />
+  </a>
+  <p>
+    The artwork page has some glitches that I have not been able to fix at the moment where the mouse does not draw directly where it is pointed, and this affects the drawing process. 
+    This section of the website does not have a footer because I wanted to make it look and feel like a plain white canvas like the painting app, and having a footer would have been a distraction. 
+    Overall, I like this idea considering it is still a small scale experimental piece which I can still develop with feedback received. It could be a cool idea to fully develop and execute.
+  </p>
+</div>
 
   );
 };
-}
 
-export default blog5;
+

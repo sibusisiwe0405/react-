@@ -1,9 +1,25 @@
-import React, { Component } from 'react'
-import "./blogstyles.css";
+import React from 'react'
+import "./blogstyles.css"
+import { Link } from "react-router-dom";
 
-class blog2 extends Component {
-    render(){
+export default function blog2() {
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+    
+      return(
+
 <div className="writing">
+<div>
+      <button onClick={scrollToTop} id="myBtn" title="Go to top">Top</button>
+      <span className="Prev"><Link to="/blog1">Prev</Link></span>
+      <span className="next2"><Link to="/blog3">Next</Link></span>
+      <p className="Heading2">
+        Brainstorming</p>
+       
+    </div>
+    <br/>
   <p>
     Web APIs?.. This was my biggest nightmare last year. It made me rethink whether I really wanted to be a developer however I really did like the idea of them. How they functioned and allow a developer to sort of use other people’s code to pull information. 
     I believe they allow for advanced fun and interactive websites which is something I want to be able to make with ease at that. I have dedicated this year to fully learning JavaScript and APIs so that I am no longer afraid to attempt to make the websites I envision. 
@@ -28,7 +44,6 @@ class blog2 extends Component {
   </p>
 </div>
 
-        
+      ) 
     }
-}
-export default blog2;
+

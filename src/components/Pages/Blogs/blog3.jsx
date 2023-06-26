@@ -1,42 +1,48 @@
-import React, { Component } from 'react'
-import "./blogstyles.css";
+import React from 'react'
+import "./blogstyles.css"
+import { Link } from "react-router-dom";
 
-class blog3 extends Component {
-    render(){
+
+export default function blog3()  {
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+    return(
+
 <div className="writing">
-  <p>
-            The user interface and user experience is an important part of designing a website. This is because you are not just making the website for yourself but it will be used by others as well and therefore considering their needs and appealing to them is important.
-            When i started with this website i had many ideas that i wanted to implement but unfourtunatly i was not able to implement them all due to time and some code failing however i am still to develop this site and i am hoping i get to include all my ideas. 
-            In this reflection I will be looking at each section of the website and analyzing my design choices and elements. 
+<div>
+      <button onClick={scrollToTop} id="myBtn" title="Go to top">Top</button>
+      <span className="Prev"><Link to="/blog2">Prev</Link></span>
+      <span className="next2"><Link to="/blog4">Next</Link></span>
+      <p className="Heading2">AI? Artists?</p>
+      
+       
+    </div>
+    <br/>
+    <br/>
+      <p>
+      Despite the legal requirement to attribute individual writers, Foucault cautions us that these reconstructions are false and highly dependent on the text itself and our own views. 
+      According to Foucault and other post-structuralist thinkers who followed him, an artist is not simply a person who existed in a specific time and place, but rather a concept that viewers an artwork to help them understand it (Buchanan, 2001, p. 17).
+      </p>
+      <p>
+      In contrast, artist Leonel Moura represents a newer entrant in the realm of machine-human boundaries.
+       Moura's career benefits from the expanding acceptance over the past three decades of a contextual definition of art, initially proposed by Marcel Duchamp, which focuses on the history, evolution, and innovative contributions of art itself.</p>
+      <p>
+      Moreover, there have been interesting developments in the realm of AI-generated personalized soundtracks. Pierre Barreau, for example, discusses the potential for AI to compose personalized music tailored to individual listeners. 
+      This opens up new possibilities for AI in creative endeavors where human creativity may not be able. 
+      However, as AI software and hardware become more advanced, the works created by AI may take away from the original author's software, raising questions about authorship and the role of AI in the creative process (Barreau, 2018).</p>
+      
+      <p>
+      The question of authorship in computational art extends beyond legal considerations. It goes into the subjective interpretation of artworks and the construction of artistic personas. 
+      Viewers often attribute traces of "personality" in the artwork to the meta-artist rather than the machine itself. 
+      This suggests that the viewer's perception and preconceived notions play a significant role in shaping the understanding and appreciation of computational art.</p>
+    <br/>
+    </div>
+    
 
-        </p>
-        <p>
-        For my UI/UX I wanted to create an instinctive, coherent and user-friendly website where the user was provided with accurate information to perform actions and navigating the website. 
-The idea I had for this website just like my previous one was making an ‘online coloring book’. 
-The website is supposed to function as internet art on its own. To do this wanted to have it look as colorful and artistic as possible, from the fonts to the colors and interactions used. 
-I wanted to have a fun and funky website with where the user is able to switch to their desired theme and font so it is more satisfying to them as they have the agency to pick how they want to view the website. 
-The website was to start off very minimal with black and white aesthetics with a color palette to that allows you to change your theme and at the end of it all the website would be a colorful website of the users choosing. 
-This would give a feel of getting a plain coloring book and adding color on each page as you go to make it look pretty. For the blog texts I wants to have a gradient color effect when the user hovers over the text leaving a trace of color. 
-
-        </p>
-        <p>
-        The overall website is user-friendly and has familiar website features that are easy to use and understand such as the standard navigation bar and the footer. 
-        This is done to create a feeling of familiarity in the user. The home page is very minimal with the starting color theme background and fun font. I want to have fun animation elements that float around in the home page to make it more engaging and appealing. 
-        Currently the page is minimal with a fun font and color gradient with a toggle function which the user interacts with to change the color/theme of the website. 
-        </p>
-
-        <p>
-        For the blog page the aesthetic remains minimal and simple with styled cards with a color glow effect when you hover over them. 
-        Each blog post has a previous and next button for easy access to other posts instead of the user going back and clicking the blogs section on the navigation. 
-        The buttons correspond with the chosen color theme because I wanted to have the website have colors that complement each other instead of having colors that don’t look good together/match. 
-        I wanted to have a gradient color effect for the text when the user schemes over the writing and hovers over it would have changed to different colors. 
-        </p>
-        <p>
-        The website is still in progress and hope by the time the exam is due I have implemented all these features and have made it just as I had visualized it. 
-        </p>
-</div>
-
+)
         
     }
-}
-export default blog3;
+

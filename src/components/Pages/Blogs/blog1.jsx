@@ -1,13 +1,28 @@
 import React from 'react'
-import "./blog1.css"
-
+import "./blogstyles.css"
+import { Link } from "react-router-dom";
 
 
 export default function blog1(){
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   
   return (
 
+    
     <div className="writing">
+      <div>
+      <button onClick={scrollToTop} id="myBtn" title="Go to top">Top</button>
+      <span className="next2"><Link to="/blog2">Next</Link></span>
+      <br/>
+        <div className='Heading2' >Impressions on Net-Art</div>
+
+      
+       
+       
+      
+    </div>
 
       <span>
         Having sat down after some time of not being at school and watched the recorded lecture I realised I have such a short attention span, however, that isn’t the point.

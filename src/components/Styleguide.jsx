@@ -1,6 +1,8 @@
 import React from 'react'
 import './Styleguide.css';
 
+
+
 const Styleguide = () => {
   return (
     <div>
@@ -9,7 +11,7 @@ const Styleguide = () => {
       I wanted to create a website coloring book where i can change the background color using a color picker as the user interacts and engages with it. 
             The site in and of itself was/is to be considered internet art.</p>
             
-            <p class="headings">Below is my planning process for my previous website where i created a mood board and concept board to jot down my ideas and the vision i had in mind for the site.
+            <p className="headings">Below is my planning process for my previous website where i created a mood board and concept board to jot down my ideas and the vision i had in mind for the site.
              This new react website is an extention of my previous site which is why i have included the previous concept as a reference.
                 Previously I wanted to have a site where it starts off plain in black and white and when the user interacts with the site and clicks on buttons it leaves color as they go. 
                 For my current site i have changed this and i want to make the user switch the background color by choosing a color from a color palette.
@@ -19,12 +21,12 @@ const Styleguide = () => {
                 A critical reflection can be found in the blog section.
             </p>
             <div className="column">
-  <img src=".Images/moodboard.png" className="stylePic" alt="Initial Hpage" style={{ width: '50%' }} />
-  <img src="./Images/concept.png" className="stylePic" alt="Concept idea" style={{ width: '50%' }} />
+  <img src="./Images/moodboard.png" className="stylePic" alt="First Mood board" style={{ width: '50%' }} />
+  <img src="./Images/concept.png" className="stylePic" alt="First Concept idea" style={{ width: '50%' }} />
 </div>
 <p className='headings'>Below I have added my new mood board and concept idea which shows a visualization of my brainstorming, inspirations and new ideas. </p>
 <div className='column'>
-<img src="./Images/new moodboard.png" className="stylePic" alt="New Hpage" style={{ width: '50%' }} />
+<img src="./Images/new moodboard.png" className="stylePic" alt="New Moodboard" style={{ width: '50%' }} />
   <img src="./Images/newconcept.png" className="stylePic" alt="NewConcept idea" style={{ width: '50%' }} />
 </div>
 
