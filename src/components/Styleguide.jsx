@@ -1,5 +1,11 @@
 import React from 'react'
 import './Styleguide.css';
+import moodboard from "./Images/moodboard.png"
+import concept from "./Images/concept.png"
+import newmoodboard from "./Images/newmoodboard.png"
+import newconcept from "./Images/newconcept.png"
+import newwireframes from "./Images/newwireframes.png"
+
 
 
 
@@ -21,13 +27,13 @@ const Styleguide = () => {
                 A critical reflection can be found in the blog section.
             </p>
             <div className="column">
-  <img src="./Images/moodboard.png" className="stylePic" alt="First Mood board" style={{ width: '50%' }} />
-  <img src="./Images/concept.png" className="stylePic" alt="First Concept idea" style={{ width: '50%' }} />
+  <img src={moodboard} className="stylePic" alt="First Mood board" style={{ width: '50%' }} />
+  <img src={concept} className="stylePic" alt="First Concept idea" style={{ width: '50%' }} />
 </div>
 <p className='headings'>Below I have added my new mood board and concept idea which shows a visualization of my brainstorming, inspirations and new ideas. </p>
 <div className='column'>
-<img src="./Images/new moodboard.png" className="stylePic" alt="New Moodboard" style={{ width: '50%' }} />
-  <img src="./Images/newconcept.png" className="stylePic" alt="NewConcept idea" style={{ width: '50%' }} />
+<img src={newmoodboard} className="stylePic" alt="New Moodboard" style={{ width: '50%' }} />
+  <img src={newconcept} className="stylePic" alt="NewConcept idea" style={{ width: '50%' }} />
 </div>
 
 <div>
@@ -35,9 +41,11 @@ const Styleguide = () => {
   <p className="headings">First image - Home page.</p>
   <p className="headings">Second image (to the right) - Blogs.</p>
   <p className="headings">Third image (bottom left) - Each blog page.</p>
+  <p className="headings">Last image (bottom right) - Canvas.</p>
 
   <p className="headings">A critical reflection can be found under the blogs section where the design process of UI/UX is explained.</p>
-  <img src="./Images/Wireframes.png" className="WPic" alt="WireFrames" style={{ width: '50%' }} />
+  <br/>
+  <img src={newwireframes} className="WPic" alt="WireFrames" style={{ width: '50%' }} />
 </div>
 
             

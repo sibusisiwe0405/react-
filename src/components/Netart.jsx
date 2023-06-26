@@ -1,16 +1,18 @@
-import { Component } from "react";
-import "./Netart.css";
-import "./HomeStyles.css";
+import React from 'react'
+import butterfly from "./Images/butterfly.jpeg"
 
-const Netart = () =>  {
+ const Netart = () => {
 
   return (
-    <div>
+    
+        <div>
+          <h1>Artwork</h1>
 
-      <h1>Artwork</h1>
-
-    </div>
-  );
+          <img src={butterfly} className="stylePic" alt="New Moodboard" style={{ width: '50%' }} />
+        </div>
+   
+    
+        
+  )
 }
-
-export default Netart; 
+export default Netart;

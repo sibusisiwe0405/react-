@@ -63,7 +63,7 @@ class Blogs extends Component {
     <img className="img" src="../Images/Blog3.0.jpg" alt="" />
   </div>
   <div className="content-cont">
-    <span className="card-header"><a href="blog4.jsx">Artwork Reflection</a></span>
+    <span className="card-header"><Link to="/blog5">UI + UX Reflection</Link></span>
     <span className="card-body">My website functions as internet art on its own.</span>
   </div>
 </div>
