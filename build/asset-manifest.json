@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-/static/css/main.5025e9e7.css",
+    "main.js": "/react-/static/js/main.90c1808a.js",
+    "static/media/moodboard.png": "/react-/static/media/moodboard.5823679606e7dd15a0e4.png",
+    "static/media/concept.png": "/react-/static/media/concept.7ac9bd2bc78c864325a0.png",
+    "static/media/newconcept.png": "/react-/static/media/newconcept.ce9eebbaca43d17fe5af.png",
+    "static/media/newmoodboard.png": "/react-/static/media/newmoodboard.413fabb0fe6d22de119f.png",
+    "static/media/canvas.png": "/react-/static/media/canvas.c88f76a3ea870ce7a22b.png",
+    "static/media/butterfly.jpeg": "/react-/static/media/butterfly.2b18ab13dde9e5dcd365.jpeg",
+    "static/media/newwireframes.png": "/react-/static/media/newwireframes.aaf4e10a202bf45fff83.png",
+    "index.html": "/react-/index.html",
+    "main.5025e9e7.css.map": "/react-/static/css/main.5025e9e7.css.map",
+    "main.90c1808a.js.map": "/react-/static/js/main.90c1808a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5025e9e7.css",
+    "static/js/main.90c1808a.js"
+  ]
+}
